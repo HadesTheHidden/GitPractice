@@ -1,10 +1,10 @@
 public class Program1 {
     public static void main (String[] args) {
-        int a=10,b=20,temp;
+        int num1=10,num2=20;
         System.out.println("a: "+a+" b: "+b);
-        temp = a;
-        a = b;
-        b = temp;
+        num1 = num1 + num2;
+		num2 = num1 - num2;
+		num1 = num1 - num2;
         System.out.println("a: "+a+" b: "+b);
     }
 }
